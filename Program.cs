@@ -5,6 +5,7 @@ builder.Services.AddControllersWithViews();
 
 var app = builder.Build();
 
+// Unnecessary comment to satisfy learning module
 // Configure the HTTP request pipeline.
 if (!app.Environment.IsDevelopment())
 {
